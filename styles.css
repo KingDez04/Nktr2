@@ -153,6 +153,10 @@ span {
     justify-content: space-between;
 }
 
+li img {
+    border-radius: 20px;
+}
+
 .outer h2 {
     margin: 10px9;
     border-bottom: 10px;
