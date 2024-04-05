@@ -77,15 +77,46 @@ ul a {
 }
 
 .gallery {
-    margin: 100px;
+    margin: 10px 100px;
 }
 
 .top {
-    margin: 10px 200px 0 200px;
+    text-align: center;
 }
 
 .flexImg {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    flex-shrink: 1;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+.btn {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0 10px 200px;
+    border-radius: 20px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.foot {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
 }
