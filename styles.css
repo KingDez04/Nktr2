@@ -154,7 +154,11 @@ span {
 }
 
 li img {
-    border-radius: 20px;
+    border-radius: 40px;
+    margin: none;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
 }
 
 .outer h2 {
