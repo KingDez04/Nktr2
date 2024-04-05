@@ -162,3 +162,7 @@ span {
 .outer input {
     width: 50%;
 }
+
+.cnt {
+    text-decoration: none;
+}
