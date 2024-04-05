@@ -13,6 +13,11 @@ header {
     margin-bottom: 50px;
 }
 
+li img {
+    width: 50px;
+    height: 50px;
+}
+
 h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 100px;
@@ -129,4 +134,31 @@ span {
     padding: 10px;
     text-align: center;
     margin-top: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+    #signUp {
+        margin-top: 850px;
+    }
+}
+
+.contact {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.outer {
+    display: inline-flex;
+    margin: 50px;
+    justify-content: space-between;
+}
+
+.outer h2 {
+    margin: 10px9;
+    border-bottom: 10px;
+    border-bottom: solid;
+}
+
+.outer input {
+    width: 50%;
 }
